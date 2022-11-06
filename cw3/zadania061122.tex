@@ -1,0 +1,73 @@
+\documentclass[a4paper]{article}
+\usepackage[left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[MeX]{polski}
+\usepackage{caption}
+\usepackage{multirow}
+
+\title{Przedstawianie danych w LaTeX przy użyciu tabel}
+\author{Michał Postek}
+\date{6 Listopad 2022}
+\begin{document}
+
+\maketitle
+
+\section{Strona tytułowa}
+
+\subsection{Informacje o autorze}
+\paragraph{Imię i nazwisko: Michał Postek}
+\paragraph{I$^{\circ}$ Informatyka NS, grupa 4}
+
+\subsection{Informacje o ćwiczeniach}
+\paragraph{Tabele w LaTeX}
+\paragraph{Programy użytkowe}
+\paragraph{06.11.2022}
+
+\newpage
+\section{Zadanie 1}
+
+\begin{table}[h]
+\centering\caption{System decyzyjny modelujący problem diagnozy medycznej}
+\begin{tabular}{c | c c c}
+	\hline
+	\hline
+	Pacjent & Ból brzucha & Temperatura ciała & Operacja \\
+	\hline
+	u1 & Mocny & Wysoka & Tak \\
+	u2 & Średni & Wysoka & Tak \\
+	u3 & Mocny & Średnia & Tak \\
+	u4 & Mocny & Niska & Tak \\
+	u5 & Średni & Średnia & Tak \\
+	u6 & Średni & Średnia & Nie \\
+	u7 & Mały & Wysoka & Nie \\
+	u8 & Mały & Niska & Nie \\
+	u9 & Mocny & Niska & Nie \\
+	u10 & Mały & Średnia & Nie \\
+	\hline
+	\hline
+\end{tabular}
+\end{table}
+
+\newpage
+\section{Zadanie 2}
+
+\begin{table}[h]
+\centering\caption{Działanie bramek logicznych}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+	\hline
+	\multicolumn{2}{|c|}{Argumenty} & \multicolumn{7}{|c|}{Bramki logiczne} \\
+	\hline
+	p & q & NOT p & NOT q & p AND q & p NAND q & p OR q & p NOR q & p XOR q \\
+	\hline
+	0 & 0 & 1 & 1 & 0 & 1 & 0 & 1 & 0 \\
+	\hline
+	0 & 1 & 1 & 0 & 0 & 1 & 1 & 0 & 1 \\
+	\hline
+	1 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 1 \\
+	\hline
+	1 & 1 & 0 & 0 & 1 & 0 & 1 & 0 & 0 \\
+	\hline
+\end{tabular}
+\end{table}
+
+\end{document}
