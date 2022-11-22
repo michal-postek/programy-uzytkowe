@@ -1,0 +1,60 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+$$ \sqrt{\frac{2^n}{2_n}} \neq \sqrt[\frac{1}{3}]{1+n} $$ \newline
+
+$$ \frac{2^k}{2^{k+2}} $$ \newline
+
+$$ \frac{x^2}{2^{\left(x+2\right)\left(x-2\right)^3}} $$ \newline
+
+$$ log_22^8 = 8 $$ \newline
+
+$$ \sqrt[3]{e^x-log_2x} $$ \newline
+
+$$ \lim_{n \rightarrow \infty} \sum_{k=1}^n \frac{1}{k^2} = \frac{\pi^2}{6} $$ \newline
+
+$$ \int_2^\infty \frac{1}{log_2x}dx = \frac{1}{x}sin x = 1 - cos^2\left(x\right) $$ \newline
+
+$$ \left[ \begin{array}{cccc}
+a_{11} & a_{12} & \ldots & a_{1K} \\
+a_{21} & a_{22} & \ldots & a_{2K} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{K1} & a_{K2} & \ldots & a_{KK} \\
+\end{array} \right] *
+\left[ \begin{array}{c}
+x_{1} \\
+x_{2} \\
+\vdots \\
+x_{K} \\
+\end{array} \right] =
+\left[ \begin{array}{c}
+b_{1} \\
+b_{2} \\
+\vdots \\
+b_{K} \\
+\end{array} \right]$$ \newline
+
+$$ \left(a_1 = a_1\left(x\right)\right) 
+\bigwedge 
+\left(a_2 = a_2\left(x\right)\right) 
+\bigwedge \ldots \bigwedge
+\left(a_k = a_k\left(x\right)\right)
+\Rightarrow
+\left(d = d\left(u\right)\right) $$ \newline
+
+$$ \left[x\right]_A = \left\lbrace y \in U : a \left(x\right) = \left(y\right), \forall \in A \right\rbrace
+,\:where\:the\:symbol\:object\:x \in U $$ \newline
+
+$$ T : \left[0,1\right] \times \left[0,1\right] \rightarrow \left[0,1\right] $$ \newline
+
+$$ \lim_{x\rightarrow\infty} exp \left(-x\right) = 0 $$ \newline
+
+$$ \frac{n!}{k!\left(n - k\right)!} = {n \choose k} $$ \newline
+
+$$ P\left( A = 2 \vline \frac{A^2}{B} > 4 \right) $$ \newline
+
+$$ S^{C_i}\left(a\right) = \frac{\left(\overline{C_i^a}\right) - \left( \hat{C_i^a} \right)^2}{Z_{\overline{C}_i^{a^2}} + Z_{\hat{C}_i^{a^2}}}, a \in A $$ \newline
+
+\end{document}
