@@ -1,0 +1,27 @@
+// -- 15/01/2023 12:16:40 -- //
+clc
+diary('zad3')
+x = ones(1, 20)
+y = factorial([1: 1: 20])
+a = x ./ y
+aSum = sum(a)
+x = ones(1, 20)
+x = x + 1
+x = x ^ [1:1:20]
+x = x .^ [1:1:20]
+b = x ./ y
+bSum = sum(b)
+x = ones(1, 40) * (-1)
+y = factorial([1:1:40] .* 2 + 1)
+c = x ./ y
+cSum = sum(c)
+x = ones(1, 1000)
+y = [1:1:1000] .^ 2
+d = x ./ y
+dSum = sum(d)
+x = [1: 1: 50] .^ 2
+y = ones(1, 50) + 1
+y = y .^ [1: 1: 50]
+e = x ./ y
+eSum = sum(e)
+savehistory('zad3-historia')

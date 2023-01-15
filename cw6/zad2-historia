@@ -1,0 +1,16 @@
+// -- 15/01/2023 11:51:10 -- //
+diary('zad2')
+x = ones(1, 100)
+y = [1: 1: 100]
+a = x ./ y
+b = x ./ y^2
+b = nthroot(y, y)
+b = x ./ y^2
+c = nthroot(y, y)
+d = (a + 1)^y
+d = (a + 1) .^ y
+for n=1:100
+e(n) = (n^3 - 2 * n^2 + 4) / (2 * n^3 + n^2 + 10 * n + 14);
+disp([n, e(n)])
+end
+savehistory('zad2-historia')
